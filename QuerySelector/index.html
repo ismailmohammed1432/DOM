@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=  initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2 class="intro">heading1</h2>
+    <p>paragraph1</p>
+    <div id="div1">
+    <h2 class="intro">heading2</h2>
+    <p class="intro">paragraph2</p>
+    <h2>heading3</h2>
+    <p class="intro">paragraph3</p>
+</div>
+    
+<script>
+    // let elm = document.querySelector("p.intro")
+    // elm.innerHTML = "hello"
+    // console.log(elm);
+
+    let elm = document.querySelectorAll("p.intro")
+    console.log(elm);
+    for(let i=0; i< elm.length;  i++){
+        console.log(elm[i]);
+    }</script>
+</body>
+</html>

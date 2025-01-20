@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="intro">
+        <p>Hello this is p tag</p>
+        <h2>hello this is h2 tag</h2>
+    </div>
+
+    <script>
+        let elm = document.getElementById("intro")
+        // let content = elm.innerHTML
+        // console.log(content); // this is to get/fetch the element
+        elm.innerHTML = "<h1> this is a heading </h1>" // this is to set the element using the ID 
+
+        let h2 = document.getElementById("h2")
+        h2.outerHTML = "ismail"
+        console.log(h2.outerHTML);
+    </script>
+</body>
+</html>
